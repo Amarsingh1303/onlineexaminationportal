@@ -1,0 +1,239 @@
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* 
+font-family: 'Crimson Pro', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Dancing Script', cursive;
+ */
+.top{
+    background-color:#333;
+    color: white;
+    padding: 10px;
+    box-shadow: 1px;
+}
+
+
+.main-panel {
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-panel2 {
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+  }
+  .main-panel2 .content-block{
+      color: white;
+   
+  }
+
+
+  /* .main-panel:nth-child(even) {
+    background-color:#ccc;
+    /* color:#ccc; */
+  } */
+  .col-wrapper {
+    max-width:500px;
+    margin:0 auto;
+  }
+  .col-wrapper .col {
+    display:inline-block;
+    vertical-align: top;
+    width:30%;
+    padding:0 5px; 
+}
+.animated.standby {
+    -webkit-animation: none !important;
+    -o-animation: none !important;
+    animation: none !important;
+    visibility: hidden;
+}
+.content-block{
+    text-align: center;
+}
+
+/* .main-panel .content-block {
+    font-family: 'Kaushan Script', sans-serif;
+}
+.coltxt{
+    font-family: 'Kaushan Script', sans-serif;
+} */
+
+/* our work css */
+
+
+
+.carousel-control-prev-icon{
+    background-image: url(../img/left-arrow.svg);
+    height: 50px;
+    width: 50px;
+    margin-top: 160px;
+    margin-left: -30px;
+}
+.carousel-control-next-icon{
+    background-image: url(../img/right-arrow.svg); 
+    height: 50px;
+    width: 50px;
+    margin-top: 160px;
+    margin-right: -30px;
+}  
+.carousel-control-prev{
+    margin-left: 50px;
+}
+.carousel-control-next{
+    margin-right: 50px;
+}
+
+.card{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.card .card-img-top a:hover{
+    background-color:blue;
+}
+.foot{
+    background-color: lightgray;
+}
+.form-control{
+    width: 580px;
+}
+
+/* styling by me */
+.top h1{
+    font-family: 'Kaushan Script', cursive;  
+}
+
+.main-panel .content-block .mp{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 40px;
+}
+
+.main-panel .content-block .sl{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 40px;
+}
+
+.main-panel .content-block .sr{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 35px;
+}
+.main-panel .content-block .sp{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 26px;
+}
+
+.coltxt{
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 20px; 
+}
+
+/* our services */
+.ow1 ,.ow2{
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase;
+}
+.carousel-content h1{
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase;
+}
+#carouselId{
+    padding: 15px;
+}
+#carouselId .carousel-indicators li{
+    background-color: black;
+    margin-bottom: -20px;
+}
+.foot{
+    padding: 20px;
+    background-color: #1c1c1d;
+}
+.foot .row .address{
+    /* s */
+}
+.foot .row .address {
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.foot .row .address .contact-info {
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase; 
+    color: white; 
+}
+.foot .row .address .phone-info {
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+ul.list{
+    padding: 0px;
+    /* margin-right: 30px; */
+}
+.foot .row .list li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.foot .row .right{
+    padding-left: 25px;
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.foot .bottom{
+    font-family: 'Crimson Pro', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+hr{
+    border-top: 1px solid white;
+}
+/* .address h1,p{
+    margin-left: 15px;
+}
+.address .contact-info{
+    margin-left: 15px;
+}
+.address .phone-info{
+    margin-left: 15px;
+} */
+
+/* image hover effect */
+/* .card .card-img-top a:hover{
+    background-color:blue;
+} */
+
+
+/* navbar settings */
+.navbar{
+    background-color:#333;
+}
+.navbar .nav-link{
+    color: white;
+    text-transform: uppercase;
+    padding:0 10px;
+}
+/* frontend developer */
+.ficons li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+ul.ficons.text-center{
+    padding-left: 0px;
+}
